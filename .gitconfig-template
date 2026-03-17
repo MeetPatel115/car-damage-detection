@@ -1,0 +1,5 @@
+[http]
+    postBuffer = 2147483648
+[pack]
+    windowMemory = 2g
+    packSizeLimit = 2g

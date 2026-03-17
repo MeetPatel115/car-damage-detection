@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+{% block content %}
+<!-- Third Container (Submit damage assessment)  -->
+<div class="container-fluid bg-2 text-center" id="third">
+    {% if scroll %}
+    <script>
+        document.location.hash = '#' + '{{ scroll }}';
+    </script>
+    {% endif %}
+    <h3>Damage Assessment Complete</h3>
+    <br>
+    <p><img src="{{ url_for('send_file', filename=filename) }}" class="img-thumbnail" id="picture"></p>
+    <h4>Results:</h4>
+    <table>
+        <tr>
+            <td>Car validation check</td>
+            <!-- {% if result[0] %}
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            {% else %} -->
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <!-- {% endif %} -->
+        </tr>
+        <tr>
+            <td>Damage validation check</td>
+            {% if result[0] %}
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            {% else %}
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            {% endif %}
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>{{ result[1] }}</td>
+        </tr>
+        <tr>
+            <td>Severity</td>
+            <td>{{ result[2] }}</td>
+        </tr>
+    </table>
+
+    <!-- {% if result['gate2_result'] %}
+    <br>
+    <p>{{ result['gate2_message'][0] }}</p>
+    <p>{{ result['gate2_message'][1] }}</p>
+    {% elif result['gate1_result'] %}
+    <br>
+    <p>{{ result['gate1_message'][0] }}</p>
+    <p>{{ result['gate1_message'][1] }}</p>
+    {% endif %} -->
+
+    <br>
+    <!-- <p>{{ result['final'] }}</p> -->
+    <!-- <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" id="menu1">Next Steps
+            <span class="caret"></span>
+        </button>
+    </div> -->
+</div>
+
+{% endblock %}
