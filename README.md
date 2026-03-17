@@ -1,23 +1,21 @@
 Here’s a **high-quality, recruiter-level README.md** for your project — polished, structured, and impactful 🚀
 Just copy-paste this into your `README.md` file:
 
----
 
-```md
 # 🚗 Car Damage Detection System
 
 <p align="center">
   <b>AI-powered vehicle damage detection using Deep Learning (VGG16) and Flask</b>
 </p>
 
----
+
 
 ## 📌 Overview
 The **Car Damage Detection System** is an end-to-end deep learning application that automates vehicle inspection by detecting damage, identifying its location, and estimating severity from images.
 
 Built using a **multi-stage CNN pipeline (VGG16 transfer learning)**, the system simulates real-world workflows used in **insurance claim processing, vehicle inspection, and repair estimation**.
 
----
+
 
 ## 🚀 Key Highlights
 - 🧠 Multi-stage deep learning pipeline (4-phase architecture)
@@ -26,7 +24,6 @@ Built using a **multi-stage CNN pipeline (VGG16 transfer learning)**, the system
 - 🖼️ Trained on 7000+ real-world car images
 - 🏗️ End-to-end ML pipeline (data → training → deployment)
 
----
 
 ## 🎯 Problem Statement
 Manual inspection of vehicle damage is:
@@ -39,7 +36,7 @@ This project automates the process using AI to:
 - Improve accuracy  
 - Enable scalable damage assessment  
 
----
+
 
 ## 🧠 Model Architecture
 
@@ -53,7 +50,7 @@ This project automates the process using AI to:
 
 Each phase uses **VGG16-based CNN models** with transfer learning.
 
----
+
 
 ## 📊 Dataset
 - Source: **Kaggle + Google Images**
@@ -63,7 +60,7 @@ Each phase uses **VGG16-based CNN models** with transfer learning.
   - Different car models
   - Multiple angles & lighting conditions
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -75,7 +72,7 @@ Each phase uses **VGG16-based CNN models** with transfer learning.
 | Backend | Flask |
 | Libraries | OpenCV, NumPy, Pandas, Matplotlib |
 
----
+
 
 ## 📈 Results
 
@@ -88,21 +85,21 @@ Each phase uses **VGG16-based CNN models** with transfer learning.
 
 > ⚠️ Note: Later phases (location & severity) are more complex and show slightly lower accuracy.
 
----
+
 
 ## 🏗️ Project Architecture
 
-```
+
 
 User Image → Preprocessing → Phase 1 → Phase 2 → Phase 3 → Phase 4 → Final Output
 
-```
 
----
+
+
 
 ## 📁 Project Structure
 
-```
+
 
 car-damage-detection/
 │
@@ -119,7 +116,7 @@ car-damage-detection/
 ├── sample_outputs/         # Example results
 └── docs/                   # Report / documentation
 
-````
+
 
 ---
 
@@ -136,21 +133,20 @@ venv\Scripts\activate      # Windows
 source venv/bin/activate   # Mac/Linux
 
 pip install -r requirements.txt
-````
+
 
 ---
 
 ## ▶️ Run the Application
 
-```bash
+
 python app.py
-```
+
 
 Open browser:
 
-```
 http://127.0.0.1:5000/
-```
+
 
 ---
 
