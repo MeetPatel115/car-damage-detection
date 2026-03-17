@@ -118,11 +118,10 @@ car-damage-detection/
 
 
 
----
+
 
 ## ⚙️ Installation
 
-```bash
 git clone https://github.com/YOUR_USERNAME/car-damage-detection.git
 cd car-damage-detection
 
@@ -135,7 +134,6 @@ source venv/bin/activate   # Mac/Linux
 pip install -r requirements.txt
 
 
----
 
 ## ▶️ Run the Application
 
@@ -148,7 +146,7 @@ Open browser:
 http://127.0.0.1:5000/
 
 
----
+
 
 ## 🖼️ Demo / Sample Output
 
@@ -160,7 +158,7 @@ Upload a car image and get:
 
 📌 *Tip: Add screenshots here to boost recruiter impact*
 
----
+
 
 ## 🚀 Future Improvements
 
@@ -170,7 +168,6 @@ Upload a car image and get:
 * 📱 Mobile app integration
 * 🎥 Real-time video-based detection
 
----
 
 ## 📚 Real-World Use Cases
 
@@ -179,20 +176,19 @@ Upload a car image and get:
 * Car rental damage verification
 * Smart garage & fleet management
 
----
+
 
 ## 👨‍💻 Author
 
 **Meet Patel**
 AI/ML Engineer | Data Scientist
 
----
 
 ## 📄 License
 
 This project is licensed under the **MIT License**.
 
----
+
 
 ## ⭐ Support
 
@@ -202,7 +198,6 @@ If you found this project useful:
 * 🔁 Share with others
 * 💼 Use it in your portfolio
 
----
 
 ## 💡 Why This Project Stands Out
 
@@ -212,11 +207,7 @@ If you found this project useful:
 * Strong use of transfer learning
 * Demonstrates AI + Software Engineering integration
 
----
 
-```
-
----
 
 ### 🔥 Why this README is powerful (quick insight)
 - Clean + professional (recruiter friendly)
@@ -224,7 +215,7 @@ If you found this project useful:
 - Highlights **ML + deployment**
 - Structured like top GitHub projects
 
----
+
 
 If you want next upgrade 🚀  
 I can help you:
@@ -234,4 +225,4 @@ I can help you:
 - Optimize for **AI Engineer / Data Scientist jobs**
 
 Just tell me 👍
-```
+
